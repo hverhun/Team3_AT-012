@@ -1,0 +1,27 @@
+[
+{
+    "lastName": "Ivanov Petro",
+    "position": "engineer",
+    "salary": "1800"
+},
+{
+    "lastName": "Zoremba Ivan",
+    "position": "director",
+    "salary": "3000"
+},
+{
+    "lastName": "Kulykiv Vasyl",
+    "position": "engineer",
+    "salary": "2000"
+},
+{
+    "lastName": "Zavadskij Maksym",
+    "position": "accountant",
+    "salary": "2800"
+},
+{
+    "lastName": "Omeljan Olena",
+    "position": "director assistant",
+    "salary": "1500"
+}
+]
