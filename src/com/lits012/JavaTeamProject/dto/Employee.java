@@ -19,6 +19,10 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getLastName() {
 		return lastName;
 	}

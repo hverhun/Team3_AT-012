@@ -19,7 +19,7 @@ public class ParserJSON {
 
 	 public List<Employee> ParseJsonUsingJackson() throws JsonParseException, JsonMappingException, IOException {
 
-	        InputStream input = new FileInputStream("D:\\Tanya\\JSONEmployees.json");
+	        InputStream input = new FileInputStream("resourses/JSONEmployees.json");
 
 	        ObjectMapper objectMapper = new ObjectMapper();
 	        //objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
