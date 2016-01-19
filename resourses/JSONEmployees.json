@@ -23,5 +23,25 @@
     "lastName": "Omeljan Olena",
     "position": "director assistant",
     "salary": "1500"
+},
+{
+    "lastName": "Omeljan Olena",
+    "position": "director assistant",
+    "salary": "1300"
+},
+{
+    "lastName": "Omeljan Olena",
+    "position": "director assistant",
+    "salary": "1800"
+},
+{
+    "lastName": "Omeljan Olena",
+    "position": "accountant",
+    "salary": "1500"
+},
+{
+    "lastName": "Omeljan Olena",
+    "position": "engineer",
+    "salary": "1500"
 }
 ]

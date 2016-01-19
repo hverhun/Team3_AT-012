@@ -9,11 +9,11 @@ public class Employee {
 
 	private String lastName;
 	private String position;
-	private String salary;
+	private int salary;
 
 	@JsonCreator
 	public Employee(@JsonProperty("lastName") String lastName, @JsonProperty("position") String position,
-                       @JsonProperty("salary") String salary) {
+                       @JsonProperty("salary") int salary) {
 		this.lastName = lastName;
 		this.position = position;
 		this.salary = salary;
@@ -31,7 +31,7 @@ public class Employee {
 		return position;
 	}
 
-	public String getSalary() {
+	public int getSalary() {
 		return salary;
 	}
 
@@ -44,7 +44,7 @@ public class Employee {
 
         if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
         if (position != null ? !position.equals(that.position) : that.position != null) return false;
-        if (salary != null ? !salary.equals(that.salary) : that.salary != null) return false;
+        if (salary != 0 ? !(salary == that.salary) : that.salary != 0) return false;
 
         return true;
     }

@@ -33,7 +33,7 @@ public class ParserJSON {
 	        for (int i = 0; i < workers.size(); i++) {
 	            String lastName = workers.get(i).getLastName();
 	            String position = workers.get(i).getPosition();
-	            String salary = workers.get(i).getSalary();
+	            int salary = workers.get(i).getSalary();
 
 	            employeeList.add(new Employee(lastName, position, salary));
 	            // for test purposes

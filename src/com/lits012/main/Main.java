@@ -1,7 +1,6 @@
 package com.lits012.main;
 
 import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.lits012.JavaTeamProject.dto.Employee;
 import com.lits012.parser.ParserJSON;
@@ -22,6 +21,8 @@ public class Main {
 	       List<Employee> result = jacksonParser.ParseJsonUsingJackson();
 	       Sorting.sort(result);
 	       
+	       System.out.print("\n"); 
+	     System.out.println("Sorted list of employees:");
 	       for (int i = 0; i < result.size(); i++){
 	    	   System.out.println(result.get(i));
 	       }
